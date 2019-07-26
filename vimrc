@@ -17,12 +17,8 @@
  noremap Q :q<CR>
  noremap R :source $MYVIMRC<CR>
  
- 
- 
  filetype indent on
 
-
- 
 " noremap n h
 " noremap u k
 " noremap e j
@@ -33,8 +29,4 @@
 " noremap l u
  
  
- 
 " map s <nop>
- map S :w<CR>
- map Q :q<CR>
- map R :source $MYVIMRC<CR>
