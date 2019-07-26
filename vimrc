@@ -1,9 +1,10 @@
- syntax on
+
+ syntax on 
  
  set number
  set nocompatible
  set showmode
- set relativenumber
+ set norelativenumber
  set cursorline
  set wrap
  set showcmd
