@@ -32,7 +32,8 @@ set ruler
 "search
 set showmatch
 set hlsearch
-set ignorecase
+set incsearch
+set noignorecase
 set smartcase
 
 "edit
@@ -54,11 +55,11 @@ set wildmode=longest:list,full
 
 
 
- noremap S :w<CR>
- noremap Q :q<CR>
- noremap R :source $MYVIMRC<CR>
+noremap S :w<CR>
+noremap Q :q<CR>
+noremap R :source $MYVIMRC<CR>
 
- filetype indent on
+filetype indent on
 
 " noremap n h
 " noremap u k
