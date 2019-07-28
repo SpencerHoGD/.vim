@@ -19,7 +19,7 @@ set softtabstop=2
 
 "apearence
 set number
-set norelativenumber
+set relativenumber
 set cursorline
 set textwidth=78
 set wrap

@@ -59,6 +59,7 @@ set listchars=tab:»■,trail:■
 set list
 set wildmenu
 set wildmode=longest:list,full
+set clipboard=unnamed
 
 
 " Uncomment the following to have Vim jump to the last position when
