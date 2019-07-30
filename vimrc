@@ -75,14 +75,14 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
-if has("vms")
-  set nobackup
-else
-  set backup
-  if has('persistent_undo')
-    set undofile
-  endif
-endif
+"if has("vms")
+"  set nobackup
+"else
+"  set backup
+"  if has('persistent_undo')
+"    set undofile
+"  endif
+"endif
 
 if &t_Co > 2 || has ("gui_running")
   set hlsearch
