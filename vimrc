@@ -44,7 +44,7 @@ set ignorecase
 set smartcase
 
 "edit
-set spell spelllang=en_us
+"set spell spelllang=en_us
 "set backup
 "set undofile
 "set backupdir=~/.vim/.backup//
