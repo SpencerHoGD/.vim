@@ -12,16 +12,17 @@ set t_Co=256
 
 "indent
 set autoindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
-set softtabstop=2
+set softtabstop=4
+set shiftround  "round indent to multiple of 'shiftwidth'
 
 "apearence
 set number
 set relativenumber
 set cursorline
-set textwidth=78
+set textwidth=79
 set wrap
 set linebreak
 "set sidescrolloff=15
